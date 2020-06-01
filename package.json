@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"start": "peerjs --port ${PORT:=9000} --allow_discovery"
+	},
+	"engines": {
+		"node": "12.x"
+	},
+	"dependencies": {
+		"peer": "0.5.3"
+	},
+}
